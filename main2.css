@@ -1,0 +1,58 @@
+@import url(fonts2.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-1{
+    width: 60%;
+    height: 60px;
+    background-color: pink;
+    float: left;
+}
+.CSS-Nav{
+    font-size: 35px;
+    font-family: 'Literata', serif;
+    display: inline-block;
+}
+.header-2{
+    /*width: 530px;*/
+    width: 40%;
+    height: 60px;
+    background-color:pink;
+    float: left;
+}
+.menu-item-1,
+.menu-item-2,
+.menu-item-3,
+.menu-item-4{
+    background-color: pink;
+    width: 105px;
+    height: 60px;
+    display: inline-block;
+    padding: 15px;
+    margin: 0 15px 5px 10px;
+    text-align: center;
+    font-family: 'Literata', serif;
+    transition-duration: 0.5s;
+    transition-property: background-color, transform;
+}
+.menu-item-1{
+    padding-top: 0;
+    float: left;
+}
+.menu-item-1:hover,
+.menu-item-2:hover,
+.menu-item-3:hover,
+.menu-item-4:hover{
+    background-color:lightpink;
+}
+.menu-link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
